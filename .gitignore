@@ -1,0 +1,52 @@
+# Build outputs
+/build/
+/build-*/
+/out/
+/bin/
+/lib/
+/Debug/
+/Release/
+/x64/
+/Win32/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+
+# Visual Studio generated files
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Intermediate and binary artifacts
+*.obj
+*.o
+*.pdb
+*.ilk
+*.ipch
+*.tlog
+*.lastbuildstate
+*.idb
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Keep required prebuilt third-party binaries for clone-and-run workflow.
+!/cocos2d/external/**/prebuilt/**/*.lib
+!/cocos2d/external/**/prebuilt/**/*.dll
+
+# Local CMake profile (machine specific)
+CMakeSettings.json
+
+# Logs and OS files
+*.log
+Thumbs.db
+.DS_Store
