@@ -42,7 +42,6 @@ compile_commands.json
 # Keep required prebuilt third-party binaries for clone-and-run workflow.
 !/cocos2d/external/**/prebuilt/**/*.lib
 !/cocos2d/external/**/prebuilt/**/*.dll
-
 # Local CMake profile (machine specific)
 CMakeSettings.json
 
